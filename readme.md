@@ -15,7 +15,8 @@ Reblock helps you automate this reblocking process.
 
 Download hostsreset.scpt and place it in /usr/local/etc/
 
-Run ~~sudo crontab -e~~ and enter:
+Run ```sudo crontab -e``` and enter
 
-~~*/15 * * * * osascript /usr/local/etc/hostsreset.scpt > /dev/null~~
+```*/15 * * * * osascript /usr/local/etc/hostsreset.scpt > /dev/null```
+
 
